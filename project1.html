@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style>
+    /* css reset*/
+    body {
+        font-family: 'Baloo 2', cursive;
+        color: rgb(235, 233, 238);
+        margin: 20px;
+        padding: 20px;
+        background: url('1.jpg');
+        
+        background-attachment: fixed;
+       
+    }
+
+    .left {
+        display: inline-block;
+       /* border: 2px solid rgb(240, 231, 231);*/
+        right: 34px;
+        top: 22px;
+    }
+
+    .left img {
+        width: 110px;
+
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 55%;
+        margin: 1px auto;
+       /* border: 2px solid rgb(244, 249, 244);*/
+        
+    }
+
+    .right {
+
+        position: absolute;
+        right: 44px;
+        top: 45px;
+        display: inline-block;
+       /*border: 2px solid rgb(241, 241, 157);*/
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+
+    }
+
+    .navbar li a {
+        color: rgb(251, 248, 248);
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: yellowgreen;
+    }
+
+    .btn {
+        font-family: 'Baloo 2', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 6px 12px;
+        border: 2px solid red;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: yellowgreen;
+    }
+
+    .container {
+        border: 2px solid green;
+        margin: 108px 85px;
+        padding: 80;
+        width: 33%;
+        border-radius: 30px;
+    }
+    .form-group input{
+        font-family: 'Baloo 2', cursive;
+        text-align: center;
+        display: block;
+        width: 408;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 10px auto;
+        font-size: 20px;
+        border-radius: 8px;
+    }
+    .container h1{
+        text-align: center;
+        
+    }
+    .container button{
+        display: block;
+        width: 50%;
+        margin: 2px auto;
+    }
+</style>
+
+<body>
+
+</body>
+<header class="header">
+    <!--left box for logo-->
+
+    <div class="left">
+        <img src="2.jpg" alt="">
+
+        <div>Body Fitness</div>
+    </div>
+    <!--mid box for navbar-->
+
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Fitness calculator</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+
+    </div>
+    <!--right box for button-->
+
+    <div class="right">
+        <button class="btn">Call Us Now</button>
+        <button class="btn">Email Us</button>
+    </div>
+</header>
+<div class="container">
+    <h1>Join the best gym of Delhi now</h1>
+    <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Locality">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Email id">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Phone number">
+        </div>
+        <button class="btn">submit</button>
+    </form>
+
+
+</div>
+
+</html>
